@@ -1,0 +1,96 @@
+/* CURRENTLY IN: styles/main.css */
+
+
+.top--blackbox{
+/*
+width: 100%;
+height: 120px;
+border-bottom: 5px;
+border-bottom: 5px solid ;
+position: ;
+
+background-color: ;
+*/
+}
+
+
+
+html {
+/*
+position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height: 100%;*/
+}
+
+
+body {
+
+ background: url(../flyimages/airport9themesdotcom.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:helvetica;
+
+
+}
+
+.navtab--superior {
+
+width: 100%;
+height: 60px;
+position: fixed;
+left: 0;
+top: 0;
+margin: auto;
+
+background-color:rgba(192,192,192,0.93);
+}
+
+.menuoptions {
+
+margin-left: 5rem;
+padding-top: 1.3rem;
+}
+
+.menuup {
+
+display: block;
+float: left;
+margin-right: 2rem;
+
+color: black;
+font-weight: normal;
+font-family: helvetica,arial narrow;
+font-size: 18px;
+
+}
+
+
+.footercopyright {
+/*width: 100%;
+height: 50px;*/
+
+font-family: helvetica, arial;
+color: white;
+font-weight: normal; font-family: helvetica, arial;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+padding-left: 2rem;
+background-color:black;
+}
+
+.footer--cright {
+
+width: 100%;
+height: 60px;
+position: fixed;
+left: 0;
+margin: auto;
+bottom: 0;
+
+
+}
