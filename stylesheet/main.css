@@ -1,8 +1,22 @@
 /* CURRENTLY IN: styles/main.css */
 
+/* clearfix class */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
-.top--blackbox{
-/*
+/*.top--blackbox{
+
 width: 100%;
 height: 120px;
 border-bottom: 5px;
@@ -15,17 +29,6 @@ background-color: ;
 
 
 
-html {
-/*
-position:fixed;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    height: 100%;*/
-}
-
-
 body {
 
  background: url(../flyimages/airport9themesdotcom.jpg) no-repeat center center fixed; 
@@ -35,8 +38,18 @@ body {
   background-size: cover;
   font-family:helvetica;
 
-
 }
+
+/*html {
+
+position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height: 100%;*/
+}
+
 
 .navtab--superior {
 
@@ -54,6 +67,7 @@ background-color:rgba(192,192,192,0.93);
 
 margin-left: 5rem;
 padding-top: 1.3rem;
+
 }
 
 .menuup {
@@ -92,5 +106,18 @@ left: 0;
 margin: auto;
 bottom: 0;
 
+}
+
+.wrapper--goes {
+
+margin: auto;
+
+}
+
+.insideone {
+
+width: 100px auto;
+height: 100px auto;
+border: 2px solid white;
 
 }
