@@ -27,6 +27,12 @@ background-color: ;
 */
 }
 
+a {
+
+text-decoration: none;
+
+}
+
 html, body {
 height: 100%;
 margin:0;
@@ -151,22 +157,130 @@ border: 2px solid white;
 
 }
 
-.boxone {
+.wrapper--games {
 
-width: 100px;
-height: 100px;
 margin: 0 auto;
-margin-left: 5rem;
+margin-top: 6rem;
+margin-left: 4rem;
+margin-right: 4rem;
+
 
 }
 
+.boxforall {
 
+width: 1000;
+height: 900;
+margin-left: 3rem;
 
+}
 
+.boxone {
 
+width: 400px;
+height: 400px;
+margin: 0 auto;
 
+margin-right: 2rem;
 
+text-decoration: none;
 
+display: inline-block;
+float: left;
+/*border: 2px solid green;*/
+}
+
+.forbutton1 {
+
+width: 1150px;
+height: 900;
+margin: 0 auto;
+
+margin-left: 3rem;
+margin-right: 1rem;
+
+text-decoration: none;
+/*border: 2px solid yellow;*/
+}
+
+.button1 {
+
+width: 280px;
+height: 45px;
+
+padding-left: 1rem;
+padding-right: 1rem;
+
+display: inline-block;
+float: left;
+
+margin-top: 2rem;
+
+margin-right: 10rem;
+
+text-align: center;
+text-decoration: none;
+
+border-radius: 10rem;
+background-color: white;
+
+color: black;
+font-family: helvetica, arial narrow;
+font-weight: bold;
+
+}
+
+.button2 {
+
+width: 200px;
+height: 45px;
+
+padding-left: 1rem;
+padding-right: 1rem;
+
+display: inline-block;
+float: left;
+
+margin-top: 2rem;
+margin-right: 13rem;
+
+text-align: center;
+text-decoration: none;
+
+border-radius: 10rem;
+background-color: white;
+
+color: black;
+font-family: helvetica, arial narrow;
+font-weight: bold;
+
+}
+
+.button3 {
+
+width: 200px;
+height: 45px;
+
+padding-left: 1rem;
+padding-right: 1rem;
+
+display: inline-block;
+float: left;
+
+margin-top: 2rem;
+margin-right: 0.1rem;
+
+text-align: center;
+text-decoration: none;
+
+border-radius: 10rem;
+background-color: white;
+
+color: black;
+font-family: helvetica, arial narrow;
+font-weight: bold;
+
+}
 
 
 
